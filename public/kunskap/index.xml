@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kunskap &amp; Insikter on Navichain TMS</title>
+    <link>http://localhost:1313/kunskap/</link>
+    <description>Recent content in Kunskap &amp; Insikter on Navichain TMS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/kunskap/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Guide: 5 sätt att öka fyllnadsgraden i dina fordon</title>
+      <link>http://localhost:1313/kunskap/guide-effektiv-logistik/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/kunskap/guide-effektiv-logistik/</guid>
+      <description>&lt;p&gt;I den här guiden går vi på djupet med en av transportbranschens största utmaningar: att köra med halvfulla bilar. Du får konkreta tips och strategier som du kan börja använda direkt i din verksamhet för att öka lönsamheten.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;I denna guide lär du dig: 
+    &lt;div id=&#34;i-denna-guide-lär-du-dig&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#i-denna-guide-l%c3%a4r-du-dig&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hur du använder datavisualisering för att upptäcka konsolideringsmöjligheter.&lt;/li&gt;
+&lt;li&gt;Strategier för proaktiv planering baserat på historisk data.&lt;/li&gt;
+&lt;li&gt;Hur &amp;ldquo;Run-konceptet&amp;rdquo; kan transformera din LTL-verksamhet.&lt;/li&gt;
+&lt;li&gt;Nyckeltal (KPI:er) du bör mäta för att följa din effektivitet.&lt;/li&gt;
+&lt;li&gt;Ett verkligt exempel från ett svenskt åkeri som ökade sin fyllnadsgrad med 18%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Ladda ner din kostnadsfria guide 
+    &lt;div id=&#34;ladda-ner-din-kostnadsfria-guide&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#ladda-ner-din-kostnadsfria-guide&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;Fyll i din e-postadress nedan så skickar vi guiden direkt till din inkorg.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

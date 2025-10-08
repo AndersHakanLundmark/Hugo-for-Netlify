@@ -1,0 +1,110 @@
+baseURL = "http://localhost:1313/"
+languageCode = "sv-se"
+title = "Navichain TMS"
+theme = "blowfish"
+
+# Konfiguration för att tillåta HTML i Markdown
+[markup.goldmark.renderer]
+  unsafe = true
+
+# ==================================
+# PARAMETRAR FÖR BLOWFISH-TEMAT
+# ==================================
+[params]
+  [params.homepage]
+    layout = "sections"
+
+# --- Sektion 1: Hero ---
+[[params.homepage.sections]]
+  template = "partials/hero.html"
+  [params.homepage.sections.hero]
+    headline = "Byt transportkaos mot total kontroll."
+    subheadline = "Navichain är det kompletta och trygga SaaS TMS:et, byggt och driftat i Sverige. Vi hjälper dig att fylla bilarna, automatisera administrationen och göra ditt åkeri mer lönsamt."
+    buttons = [
+      { label = "Boka en kostnadsfri demo", url = "/kontakt" }
+    ]
+      
+# --- Sektion 2: Problem ("Features") ---
+[[params.homepage.sections]]
+  template = "partials/features.html"
+  [params.homepage.sections.features]
+    headline = "Känns det här igen?"
+    items = [
+      { title = "Pappershögar & Excel", content = "Fraktsedlar, körordrar och post-it-lappar överallt. Tidskrävande och lätt att göra fel.", icon = "server" },
+      { title = "Halvfulla bilar", content = "Svårt att få en överblick och kombinera gods. Tomma mil som äter upp marginalerna.", icon = "truck" },
+      { title = "Långsam fakturering", content = "Jakten på signerade fraktsedlar fördröjer faktureringen och anstränger kassaflödet.", icon = "clock" }
+    ]
+
+# --- Sektion 3: Trygghet ("Features" igen) ---
+[[params.homepage.sections]]
+  template = "partials/features.html"
+  [params.homepage.sections.features]
+    headline = "Ett tryggare och smartare val"
+    items = [
+      { title = "Svenska Servrar", content = "All er data lagras och bearbetas säkert på våra egna servrar i Sverige. Full trygghet och 100% GDPR-efterlevnad.", icon = "shield-check" },
+      { title = "Suverän & Säker AI", content = "Vår kraftfulla AI-motor körs på våra egna svenska servrar. Ingen data delas med tredjepartsleverantörer utomlands.", icon = "chip" },
+      { title = "Support som förstår", content = "När du behöver hjälp pratar du med experter i Sverige som kan transportbranschen och förstår din vardag.", icon = "user-group" }
+    ]
+
+# --- Sektion 4: Avslutande CTA ("Hero" igen) ---
+[[params.homepage.sections]]
+  template = "partials/hero.html"
+  [params.homepage.sections.hero]
+    headline = "Redo att byta kaos mot kontroll?"
+    subheadline = "Ta 15 minuter för en personlig demo och se hur Navichain kan transformera ditt åkeri. Helt utan förpliktelser."
+    buttons = [
+      { label = "Boka din demo nu", url = "/kontakt" }
+    ]
+
+# ==================================
+# HUVUDMENY (med undermeny)
+# ==================================
+[[menu.main]]
+  name = "Produkten"
+  url = "/produkten/"
+  weight = 10
+  identifier = "produkten"
+
+[[menu.main]]
+  name = "För Trafikledaren"
+  url = "/produkten/for-trafikledaren/"
+  weight = 11
+  parent = "produkten"
+
+[[menu.main]]
+  name = "För Chauffören"
+  url = "/produkten/for-chaufforen/"
+  weight = 12
+  parent = "produkten"
+
+[[menu.main]]
+  name = "För Administrationen"
+  url = "/produkten/for-administrationen/"
+  weight = 13
+  parent = "produkten"
+
+[[menu.main]]
+  name = "AI & Benchmarking"
+  url = "/produkten/ai-och-benchmarking/"
+  weight = 14
+  parent = "produkten"
+
+[[menu.main]]
+  name = "Priser"
+  url = "/priser/"
+  weight = 20
+
+[[menu.main]]
+  name = "Våra Kunder"
+  url = "/kunder/"
+  weight = 30
+
+[[menu.main]]
+  name = "Varför Navichain?"
+  url = "/varfor-navichain/"
+  weight = 40
+
+[[menu.main]]
+  name = "Kontakt"
+  url = "/kontakt/"
+  weight = 50
